@@ -33,7 +33,7 @@ a {
 
 body header {
   background: linear-gradient(to right, #693b2e, #f39222, #693b2e);
-  height: 70vh;
+  height: 90vh;
   padding-top: 20px;
 }
 body header .nav {
