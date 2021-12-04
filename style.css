@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1110px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.col {
+  display: flex;
+  justify-content: space-between;
+}
+.col .col-md-4 {
+  width: 33%;
+}
+.col .col-md-8 {
+  width: 66%;
+}
+
+body header {
+  background: linear-gradient(to right, #693b2e, #f39222, #693b2e);
+  height: 70vh;
+  padding-top: 20px;
+}
+body header .nav {
+  background-color: #f7f7f7;
+  padding: 24px 0;
+}
+body header .nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .nav .container .brend a {
+  display: flex;
+  align-items: center;
+}
+body header .nav .container .brend a h1 {
+  font-size: 47px;
+  margin-left: 23px;
+  color: #000000;
+}
+body header .nav .container .brend a h1 span {
+  color: #b02b05aa;
+}
+body header .nav .container .menu ul {
+  width: 500px;
+  justify-content: space-between;
+  font-size: 25px;
+}
+body header .nav .container .menu ul li a {
+  color: #000;
+}
+body header .nav .container .menu ul li a.active, body header .nav .container .menu ul li a:hover {
+  color: #c53005;
+}
+body header .head-body .container h1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 75px;
+  color: #fff;
+  font-weight: 400px;
+  font-size: 80px;
+  font-family: "Lora", serif;
+}
+body #product {
+  background-color: #f3f3f3;
+  padding-top: 36px;
+  padding-bottom: 40px;
+}
+body #product .container .boxs {
+  display: flex;
+  justify-content: space-between;
+}
+body #product .container .boxs .box {
+  text-align: center;
+  border-right: 1px solid #00000060;
+  padding: 0 50px 0 50px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body #product .container .boxs .box:nth-child(4) {
+  border: 0;
+}
+body #product .container .boxs .box h1 {
+  font-size: 26px;
+  font-family: "Lora", serif;
+  padding: 20px 0 15px 0;
+}
+body #product .container .boxs .box img {
+  margin: 0 auto 0 auto;
+}
+body #product .container .boxs .box a {
+  margin: 18px auto 15px auto;
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 8px;
+  color: #696969;
+  font-style: 14px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  border: 1px solid #94949470;
+}
+body #about {
+  margin: 50px auto;
+}
+body #about .container .col .col-md-8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body #about .container .col .col-md-8 .head h2 {
+  font-weight: 100 !important;
+  font-size: 30px;
+  font-family: "Lora", serif;
+}
+body #about .container .col .col-md-8 .head p {
+  font-color: #8c8c8c;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 17px;
+  font-family: "Lora", serif;
+}
+body #about .container .col .col-md-8 .body {
+  padding-right: 70px;
+}
+body #about .container .col .col-md-8 .body p {
+  color: #696969;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 17px;
+}
+body #about .container .col .col-md-8 .body p a {
+  color: #c53005;
+  text-decoration: underline;
+}
+body #about .container .col .col-md-8 .footer .btn {
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 8px;
+  color: #696969;
+  font-style: 14px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  border: 1px solid #94949470;
+}
+body #about .container .col .col-md-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body #about .container .col .col-md-4 h1 {
+  font-weight: 100;
+  font-size: 30px;
+  font-family: "Lora", serif;
+}
+body #about .container .col .col-md-4 hr {
+  margin: 20px 0;
+}
+body #about .container .col .col-md-4 .container .col .col-md-4 img {
+  width: 80px;
+}
+body #about .container .col .col-md-4 .container .col:nth-child(2) {
+  margin: 20px auto;
+}
+body #about .container .col .col-md-4 .container .col .col-md-8 {
+  justify-content: space-around;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+}
+body #about .container .col .col-md-4 .container .col .col-md-8 a {
+  color: #c53005;
+  text-decoration: underline;
+}
+body footer {
+  background-color: #00000033;
+  padding: 40px 0 50px 0;
+}
+body footer .container .col .col-md-8 h1 {
+  font-weight: 600 !important;
+  font-size: 25px;
+  font-family: "Lora", serif;
+  margin-bottom: 20px;
+}
+body footer .container .col .col-md-8 h1 span {
+  font-weight: 100 !important;
+  opacity: 0.7;
+}
+body footer .container .col .col-md-8 p {
+  font-weight: 600 !important;
+  font-size: 16px;
+  font-family: "Lora", serif;
+}
+body footer .container .col .col-md-8 p a {
+  color: #c53005;
+  text-decoration: underline;
+}
+body footer .container .col .col-md-4 h1 {
+  font-size: 25px;
+  font-family: "Lora", serif;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
